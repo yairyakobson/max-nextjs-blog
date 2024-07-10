@@ -5,7 +5,7 @@ async function sendData(contactDetails){
   const response = await fetch("/api/contactAPI", {
     method: "POST",
     headers: {
-      'Content-Type': 'application/json',
+      "Content-Type": "application/json"
     },
     body: JSON.stringify(contactDetails)
   });

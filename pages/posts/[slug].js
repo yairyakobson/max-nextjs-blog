@@ -1,6 +1,7 @@
+import Head from "next/head";
+
 import PostContent from "@/components/posts/details/content";
 import { getPostData, getPostsFiles } from "@/helpers/postUtils";
-import Head from "next/head";
 
 export function getStaticPaths(){
   const postsName = getPostsFiles();
